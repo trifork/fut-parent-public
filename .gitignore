@@ -1,3 +1,6 @@
 .idea
 *.iml
 */target
+/fut
+/fut.cmd
+/build-lib
