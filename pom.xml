@@ -70,6 +70,10 @@
                     <artifactId>maven-failsafe-plugin</artifactId>
                     <version>3.0.0-M4</version>
                     <configuration>
+                        <!-- Because of spring-boot-maven-plugin's 'repackage' goal we need to tell failsafe where to find our classes-->
+                        <additionalClasspathElements>
+                            <additionalClasspathElement>${basedir}/target/classes</additionalClasspathElement>
+                        </additionalClasspathElements>
                         <environmentVariables>
                             <FUT_LOG4J_APPENDER>PrettyConsole</FUT_LOG4J_APPENDER>
                         </environmentVariables>
