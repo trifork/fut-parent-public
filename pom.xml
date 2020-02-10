@@ -75,7 +75,7 @@
                         <additionalClasspathElements>
                             <additionalClasspathElement>${basedir}/target/classes</additionalClasspathElement>
                         </additionalClasspathElements>
-                        <argLine>-Dfile.encoding=${project.build.sourceEncoding}</argLine>
+                        <argLine>@{argLine} -Dfile.encoding=${project.build.sourceEncoding}</argLine>
                         <environmentVariables>
                             <FUT_LOG4J_APPENDER>PrettyConsole</FUT_LOG4J_APPENDER>
                         </environmentVariables>
