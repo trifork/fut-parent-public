@@ -90,7 +90,7 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.0.0-M4</version>
                     <configuration>
-                        <argLine>-Dfile.encoding=${project.build.sourceEncoding}</argLine>
+                        <argLine>@{argLine} -Dfile.encoding=${project.build.sourceEncoding}</argLine>
                         <environmentVariables>
                             <FUT_LOG4J_APPENDER>PrettyConsole</FUT_LOG4J_APPENDER>
                         </environmentVariables>
