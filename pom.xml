@@ -20,7 +20,7 @@
         <error_prone_core_version>2.3.4</error_prone_core_version>
         <argLine/> <!-- empty placeholder added to surefire and failsafe using @{argLine} late property replacement. Modified when running with jacoco plugin -->
 
-        <ehealth.build.version>1.1.3</ehealth.build.version>
+        <ehealth.build.version>1.1.4</ehealth.build.version>
         <release.branch>release/op1</release.branch>
         <release.develop.branch>develop</release.develop.branch>
         <pipeline.sonarqube.branch>develop</pipeline.sonarqube.branch>
