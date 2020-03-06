@@ -237,6 +237,7 @@
                         <formats>
                             <format>JSON</format>
                             <format>HTML</format>
+                            <format>XML</format>
                         </formats>
                     </configuration>
                 </plugin>
