@@ -25,6 +25,12 @@
         <release.develop.branch>develop</release.develop.branch>
         <pipeline.sonarqube.branch>develop</pipeline.sonarqube.branch>
 
+        <!-- Dependency check Sonarqube plugin -->
+        <sonar.dependencyCheck.htmlReportPath>target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
+        <sonar.dependencyCheck.jsonReportPath>target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
+        <sonar.dependencyCheck.xmlReportPath>target/dependency-check-report.xml</sonar.dependencyCheck.xmlReportPath>
+        <sonar.dependencyCheck.summary>true</sonar.dependencyCheck.summary>
+
         <!-- versions -->
         <json.simple.version>1.1.1</json.simple.version>
     </properties>
