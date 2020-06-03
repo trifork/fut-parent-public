@@ -17,7 +17,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <maven.javadoc.skip>true</maven.javadoc.skip>
-        <error_prone_core_version>2.3.4</error_prone_core_version>
+        <error_prone_core_version>2.4.0</error_prone_core_version>
         <argLine/> <!-- empty placeholder added to surefire and failsafe using @{argLine} late property replacement. Modified when running with jacoco plugin -->
 
         <ehealth.build.version>1.1.8</ehealth.build.version>
