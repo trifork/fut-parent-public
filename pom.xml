@@ -20,7 +20,6 @@
         <error_prone_core_version>2.4.0</error_prone_core_version>
         <argLine/> <!-- empty placeholder added to surefire and failsafe using @{argLine} late property replacement. Modified when running with jacoco plugin -->
 
-        <ehealth.build.version>1.1.10</ehealth.build.version>
         <release.branch>release/3.1.0</release.branch>
         <release.develop.branch>develop</release.develop.branch>
         <pipeline.sonarqube.branch>develop</pipeline.sonarqube.branch>
@@ -223,12 +222,6 @@
                 </plugin>
 
                 <plugin>
-                    <groupId>dk.sundhed.ehealth.build</groupId>
-                    <artifactId>ehealth-build-maven-plugin</artifactId>
-                    <version>${ehealth.build.version}</version>
-                </plugin>
-
-                <plugin>
                     <groupId>org.owasp</groupId>
                     <artifactId>dependency-check-maven</artifactId>
                     <version>5.3.2</version>
@@ -364,59 +357,6 @@
 
             <build>
                 <plugins>
-                    <!-- Install the tool -->
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-dependency-plugin</artifactId>
-                        <executions>
-                            <execution>
-                                <id>build-tool-install</id>
-                                <phase>initialize</phase>
-                                <goals>
-                                    <goal>unpack</goal>
-                                </goals>
-                                <configuration>
-                                    <artifactItems>
-                                        <artifactItem>
-                                            <groupId>dk.sundhed.ehealth.build</groupId>
-                                            <artifactId>ehealth-build-tool</artifactId>
-                                            <version>${ehealth.build.version}</version>
-                                            <type>zip</type>
-                                            <outputDirectory>${project.basedir}</outputDirectory>
-                                        </artifactItem>
-                                    </artifactItems>
-                                    <markersDirectory>${project.basedir}/build-lib</markersDirectory>
-                                </configuration>
-                            </execution>
-                        </executions>
-                    </plugin>
-
-                    <!-- Configure -->
-                    <plugin>
-                        <groupId>org.codehaus.mojo</groupId>
-                        <artifactId>exec-maven-plugin</artifactId>
-                        <executions>
-                            <execution>
-                                <id>build-init</id>
-                                <phase>initialize</phase>
-                                <goals>
-                                    <goal>java</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                        <configuration>
-                            <mainClass>dk.sundhed.ehealth.build.Init</mainClass>
-                            <additionalClasspathElements>
-                                <additionalClasspathElement>
-                                    ${project.basedir}/build-lib/ehealth-build-tool-${ehealth.build.version}.jar
-                                </additionalClasspathElement>
-                                <additionalClasspathElement>
-                                    ${project.basedir}/build-lib/json-simple-${json.simple.version}.jar
-                                </additionalClasspathElement>
-                            </additionalClasspathElements>
-                        </configuration>
-                    </plugin>
-
                     <!-- Get build properties -->
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
@@ -443,19 +383,16 @@
                                 <fileset>
                                     <directory>templates</directory>
                                 </fileset>
-                                <!-- Remove old versions of the build tool -->
+                                <!-- Build tool is no longer installed per project - so remove it! -->
                                 <fileset>
                                     <directory>build-lib</directory>
+                                </fileset>
+                                <fileset>
+                                    <directory>${basedir}</directory>
                                     <includes>
-                                        <include>dk.sundhed.ehealth.build-ehealth-build*</include>
-                                        <include>ehealth-build-*</include>
+                                        <include>fut</include>
+                                        <include>fut.cmd</include>
                                     </includes>
-                                    <excludes>
-                                        <exclude>
-                                            dk.sundhed.ehealth.build-ehealth-build-tool-zip-${ehealth.build.version}.marker
-                                        </exclude>
-                                        <exclude>ehealth-build-tool-${ehealth.build.version}.jar</exclude>
-                                    </excludes>
                                 </fileset>
                             </filesets>
                         </configuration>
