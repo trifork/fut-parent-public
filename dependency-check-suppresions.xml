@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+    <suppress>
+        <notes><![CDATA[
+        org.komamitsu:phi-accural-failure-detector:0.0.5 is falsely marked as CVE-2020-25575 due to the word 'failure' being part of the file name.
+        See https://support.systematic.com/browse/FUT1-4844
+      ]]></notes>
+        <sha1>042f82148d685622d67931e32b29b5c6a1f46d41</sha1>
+        <cve>CVE-2020-25575</cve>
+    </suppress>
+</suppressions>
