@@ -46,4 +46,21 @@
         <packageUrl regex="true">^pkg:maven/org\.apache\.activemq/activemq\-client@.*$</packageUrl>
         <cve>CVE-2015-5184</cve>
     </suppress>
+
+    <!-- Suppress CVEs unrelated to io.dogote:json-patch -->
+    <suppress>
+        <notes><![CDATA[
+   file name: json-patch-1.15.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.dogote/json\-patch@.*$</packageUrl>
+        <cve>CVE-2020-10663</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: json-patch-1.15.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.dogote/json\-patch@.*$</packageUrl>
+        <cve>CVE-2020-7712</cve>
+    </suppress>
+
 </suppressions>
