@@ -20,7 +20,7 @@
         <error_prone_core_version>2.4.0</error_prone_core_version>
         <argLine/> <!-- empty placeholder added to surefire and failsafe using @{argLine} late property replacement. Modified when running with jacoco plugin -->
 
-        <release.branch>release/3.1.0</release.branch>
+        <release.branch>release</release.branch>
         <release.develop.branch>develop</release.develop.branch>
         <pipeline.sonarqube.branch>develop</pipeline.sonarqube.branch>
 
