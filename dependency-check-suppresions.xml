@@ -8,4 +8,18 @@
         <sha1>042f82148d685622d67931e32b29b5c6a1f46d41</sha1>
         <cve>CVE-2020-25575</cve>
     </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: jackson-dataformat-msgpack-0.8.20.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.msgpack/jackson\-dataformat\-msgpack@.*$</packageUrl>
+        <cve>CVE-2020-5234</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: msgpack-core-0.8.20.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.msgpack/msgpack\-core@.*$</packageUrl>
+        <cve>CVE-2020-5234</cve>
+    </suppress>
 </suppressions>
