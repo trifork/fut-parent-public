@@ -8,6 +8,7 @@
         <sha1>042f82148d685622d67931e32b29b5c6a1f46d41</sha1>
         <cve>CVE-2020-25575</cve>
     </suppress>
+
     <suppress>
         <notes><![CDATA[
    file name: jackson-dataformat-msgpack-0.8.20.jar
@@ -21,5 +22,28 @@
    ]]></notes>
         <packageUrl regex="true">^pkg:maven/org\.msgpack/msgpack\-core@.*$</packageUrl>
         <cve>CVE-2020-5234</cve>
+    </suppress>
+
+    <!-- Suppress activemq console related CVEs in activemq-client  -->
+    <suppress>
+        <notes><![CDATA[
+   file name: activemq-client-5.15.13.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.apache\.activemq/activemq\-client@.*$</packageUrl>
+        <cve>CVE-2015-5182</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: activemq-client-5.15.13.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.apache\.activemq/activemq\-client@.*$</packageUrl>
+        <cve>CVE-2015-5183</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: activemq-client-5.15.13.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.apache\.activemq/activemq\-client@.*$</packageUrl>
+        <cve>CVE-2015-5184</cve>
     </suppress>
 </suppressions>
