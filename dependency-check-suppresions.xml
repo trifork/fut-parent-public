@@ -47,51 +47,15 @@
         <cve>CVE-2015-5184</cve>
     </suppress>
 
-    <!-- Suppress CVE-2020-10663 + CVE-2020-7712 that is not relevant for Java json libraries -->
+    <!-- Suppress CVE-2020-10663 + CVE-2020-7712 that is not relevant for Java dependencies -->
+    <!-- See https://github.com/jeremylong/DependencyCheck/issues/2794 -->
     <suppress>
-        <notes><![CDATA[
-   file name: json-patch-1.15.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.dogote/json\-patch@.*$</packageUrl>
+        <notes><![CDATA[   See https://github.com/jeremylong/DependencyCheck/issues/2794   ]]></notes>
         <cve>CVE-2020-10663</cve>
     </suppress>
     <suppress>
-        <notes><![CDATA[
-   file name: org.everit.json.schema-1.12.1.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/com\.github\.everit\-org\.json\-schema/org\.everit\.json\.schema@.*$</packageUrl>
-        <cve>CVE-2020-10663</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: jakarta.json-api-1.1.6.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/jakarta\.json/jakarta\.json\-api@.*$</packageUrl>
-        <cve>CVE-2020-10663</cve>
-    </suppress>
-
-    <suppress>
-        <notes><![CDATA[
-   file name: json-patch-1.15.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/io\.dogote/json\-patch@.*$</packageUrl>
+        <notes><![CDATA[   See https://github.com/jeremylong/DependencyCheck/issues/2794   ]]></notes>
         <cve>CVE-2020-7712</cve>
     </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: org.everit.json.schema-1.12.1.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/com\.github\.everit\-org\.json\-schema/org\.everit\.json\.schema@.*$</packageUrl>
-        <cve>CVE-2020-7712</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: jakarta.json-api-1.1.6.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/jakarta\.json/jakarta\.json\-api@.*$</packageUrl>
-        <cve>CVE-2020-7712</cve>
-    </suppress>
-
-
 
 </suppressions>
