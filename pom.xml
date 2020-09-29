@@ -140,6 +140,7 @@
                         </additionalClasspathElements>
                         <argLine>@{argLine} -Dfile.encoding=${project.build.sourceEncoding}</argLine>
                         <environmentVariables>
+                            <SPRING_PROFILES_INCLUDE>test</SPRING_PROFILES_INCLUDE>
                             <FUT_LOG4J_APPENDER>PrettyConsole</FUT_LOG4J_APPENDER>
                         </environmentVariables>
                         <systemPropertyVariables>
