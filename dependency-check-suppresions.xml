@@ -58,4 +58,14 @@
         <cve>CVE-2020-7712</cve>
     </suppress>
 
+    <!-- Suppress CVE-2019-3774 for spring-boot-starter-batch-2.3.4.RELEASE or newer -->
+    <!-- See https://github.com/jeremylong/DependencyCheck/issues/1720 -->
+    <suppress>
+        <notes><![CDATA[
+   file name: spring-boot-starter-batch-2.3.4.RELEASE.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring\-boot\-starter\-batch@[2-9].*\.[3-9].*\.[4-9].*\.RELEASE.*$</packageUrl>
+        <cve>CVE-2019-3774</cve>
+    </suppress>
+
 </suppressions>
