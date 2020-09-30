@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
     <suppress>
+        <!-- phi-accural-failure-detector:0.0.5 is falsely marked as CVE-2020-25575 due to the word 'failure' being part of the file name -->
         <notes><![CDATA[
         org.komamitsu:phi-accural-failure-detector:0.0.5 is falsely marked as CVE-2020-25575 due to the word 'failure' being part of the file name.
         See https://support.systematic.com/browse/FUT1-4844
@@ -9,6 +10,7 @@
         <cve>CVE-2020-25575</cve>
     </suppress>
 
+    <!-- Suppress CVE-2020-5234 which is a C# CVE and not relevant for Java libraries -->
     <suppress>
         <notes><![CDATA[
    file name: jackson-dataformat-msgpack-0.8.20.jar
@@ -66,6 +68,20 @@
    ]]></notes>
         <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring\-boot\-starter\-batch@[2-9].*\.[3-9].*\.[4-9].*\.RELEASE.*$</packageUrl>
         <cve>CVE-2019-3774</cve>
+    </suppress>
+
+    <!-- These CVEs are related to infinispan 9, but "org.infinispan.protostream:protostream:4.3.2" is included as transitive dependency of infinispan-commons 10 -->
+    <!-- They are probably falsely matching "org.infinispan.protostream:protostream:4.3.2" due to the vendor (org.infinispan) and version number (lower than 10) -->
+    <suppress>
+        <notes><![CDATA[
+   file name: protostream-4.3.2.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.infinispan\.protostream/protostream@[4-9].*\.[3-9].*\.[2-9].*\.Final.*$</packageUrl>
+        <cve>CVE-2016-0750</cve>
+        <cve>CVE-2017-15089</cve>
+        <cve>CVE-2017-2638</cve>
+        <cve>CVE-2019-10158</cve>
+        <cve>CVE-2019-10174</cve>
     </suppress>
 
 </suppressions>
