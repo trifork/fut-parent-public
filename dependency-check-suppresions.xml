@@ -33,19 +33,7 @@
    ]]></notes>
         <packageUrl regex="true">^pkg:maven/org\.apache\.activemq/activemq\-client@.*$</packageUrl>
         <cve>CVE-2015-5182</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: activemq-client-5.15.13.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/org\.apache\.activemq/activemq\-client@.*$</packageUrl>
         <cve>CVE-2015-5183</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[
-   file name: activemq-client-5.15.13.jar
-   ]]></notes>
-        <packageUrl regex="true">^pkg:maven/org\.apache\.activemq/activemq\-client@.*$</packageUrl>
         <cve>CVE-2015-5184</cve>
     </suppress>
 
@@ -54,9 +42,6 @@
     <suppress>
         <notes><![CDATA[   See https://github.com/jeremylong/DependencyCheck/issues/2794   ]]></notes>
         <cve>CVE-2020-10663</cve>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[   See https://github.com/jeremylong/DependencyCheck/issues/2794   ]]></notes>
         <cve>CVE-2020-7712</cve>
     </suppress>
 
