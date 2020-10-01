@@ -106,4 +106,16 @@
        <cve>CVE-2020-1758</cve>
     </suppress>
 
+    <suppress>
+       <notes><![CDATA[
+       file name: protostream-processor-4.3.2.Final.jar
+       ]]></notes>
+       <packageUrl regex="true">^pkg:maven/org\.infinispan\.protostream/protostream\-processor@.*$</packageUrl>
+       <cve>CVE-2016-0750</cve>
+       <cve>CVE-2017-15089</cve>
+       <cve>CVE-2017-2638</cve>
+       <cve>CVE-2019-10158</cve>
+       <cve>CVE-2019-10174</cve>
+    </suppress>
+    
 </suppressions>
