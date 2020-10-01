@@ -68,5 +68,15 @@
         <cve>CVE-2019-10158</cve>
         <cve>CVE-2019-10174</cve>
     </suppress>
+    
+    <!-- This dependency does not follow the other keycloak dependency versions -->
+    <!-- Suppress everything -->
+    <suppress>
+       <notes><![CDATA[
+       file name: keycloak-model-api-1.8.1.Final.jar
+       ]]></notes>
+       <sha1>2aee397109eaa153908d677e67c7681707c67935</sha1>
+       <vulnerabilityName regex="true"></vulnerabilityName>
+    </suppress>
 
 </suppressions>
