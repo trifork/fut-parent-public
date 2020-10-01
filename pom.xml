@@ -27,7 +27,6 @@
         <!-- Dependency check Sonarqube plugin -->
         <sonar.dependencyCheck.htmlReportPath>target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
         <sonar.dependencyCheck.jsonReportPath>target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
-        <sonar.dependencyCheck.xmlReportPath>target/dependency-check-report.xml</sonar.dependencyCheck.xmlReportPath>
         <sonar.dependencyCheck.summarize>true</sonar.dependencyCheck.summarize>
 
         <!-- versions -->
@@ -237,10 +236,10 @@
                     </executions>
                     <configuration>
                         <suppressionFile>http://raw.githubusercontent.com/trifork/fut-parent-public/develop/dependency-check-suppresions.xml</suppressionFile>
+                        <failBuildOnCVSS>9</failBuildOnCVSS>
                         <formats>
                             <format>JSON</format>
                             <format>HTML</format>
-                            <format>XML</format>
                         </formats>
                     </configuration>
                 </plugin>
