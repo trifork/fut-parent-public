@@ -70,13 +70,40 @@
     </suppress>
     
     <!-- This dependency does not follow the other keycloak dependency versions -->
-    <!-- Suppress everything -->
     <suppress>
        <notes><![CDATA[
        file name: keycloak-model-api-1.8.1.Final.jar
        ]]></notes>
-       <sha1>2aee397109eaa153908d677e67c7681707c67935</sha1>
-       <vulnerabilityName regex="true"></vulnerabilityName>
+       <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
+       <cve>CVE-2016-8609</cve>
+       <cve>CVE-2016-8629</cve>
+       <cve>CVE-2017-12161</cve>
+       <cve>CVE-2017-2582</cve>
+       <cve>CVE-2017-2585</cve>
+       <cve>CVE-2017-2646</cve>
+       <cve>CVE-2018-10912</cve>
+       <cve>CVE-2018-14637</cve>
+       <cve>CVE-2019-10157</cve>
+       <cve>CVE-2019-10169</cve>
+       <cve>CVE-2019-10170</cve>
+       <cve>CVE-2019-10199</cve>
+       <cve>CVE-2019-10201</cve>
+       <cve>CVE-2019-14820</cve>
+       <cve>CVE-2019-14832</cve>
+       <cve>CVE-2019-14837</cve>
+       <cve>CVE-2019-3868</cve>
+       <cve>CVE-2019-3875</cve>
+       <cve>CVE-2020-10758</cve>
+       <cve>CVE-2020-1694</cve>
+       <cve>CVE-2020-1697</cve>
+       <cve>CVE-2020-1698</cve>
+       <cve>CVE-2020-1714</cve>
+       <cve>CVE-2020-1718</cve>
+       <cve>CVE-2020-1724</cve>
+       <cve>CVE-2020-1727</cve>
+       <cve>CVE-2020-1728</cve>
+       <cve>CVE-2020-1744</cve>
+       <cve>CVE-2020-1758</cve>
     </suppress>
 
 </suppressions>
