@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
 
+  <!-- Suppress false-positive https://github.com/jeremylong/DependencyCheck/issues/2955 -->
+  <suppress>
+    <notes><![CDATA[
+   file name: micrometer-core-1.5.7.jar
+   ]]></notes>
+    <packageUrl regex="true">^pkg:maven/io\.micrometer/micrometer\-core@.*$</packageUrl>
+    <cpe>cpe:/a:vmware:ace</cpe>
+  </suppress>
+
     <!-- These CVEs are related to infinispan 9, but "org.infinispan.protostream:protostream:4.3.2" is included as transitive dependency of infinispan-commons 10 -->
     <!-- They are probably falsely matching "org.infinispan.protostream:protostream:4.3.2" due to the vendor (org.infinispan) and version number (lower than 10) -->
     <suppress>
