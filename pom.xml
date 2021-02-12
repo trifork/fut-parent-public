@@ -278,7 +278,7 @@
                         <configuration>
                             <compilerArgs>
                                 <arg>-XDcompilePolicy=simple</arg>
-                                <arg>-Xplugin:ErrorProne</arg>
+                                <arg>-Xplugin:ErrorProne -XepExcludedPaths:.*/target/generated-sources/.*</arg>
                             </compilerArgs>
                             <annotationProcessorPaths>
                                 <path>
