@@ -23,19 +23,21 @@
     <cve>CVE-2016-8629</cve>
     <cve>CVE-2017-2582</cve>
     <cve>CVE-2017-2585</cve>
-    <cve>CVE-2018-1463</cve>
-    <cve>CVE-2019-1015</cve>
-    <cve>CVE-2019-1019</cve>
-    <cve>CVE-2019-1020</cve>
-    <cve>CVE-2019-1482</cve>
-    <cve>CVE-2019-1483</cve>
+    <cve>CVE-2018-14637</cve>
+    <cve>CVE-2019-10157</cve>
+    <cve>CVE-2019-10199</cve>
+    <cve>CVE-2019-10201</cve>
+    <cve>CVE-2019-14820</cve>
+    <cve>CVE-2019-14832</cve>
+    <cve>CVE-2019-14837</cve>
     <cve>CVE-2019-3868</cve>
     <cve>CVE-2019-3875</cve>
-    <cve>CVE-2020-1075</cve>
-    <cve>CVE-2020-1077</cve>
-    <cve>CVE-2020-1430</cve>
-    <cve>CVE-2020-1436</cve>
-    <cve>CVE-2020-1438</cve>
+    <cve>CVE-2020-10758</cve>
+    <cve>CVE-2020-10770</cve>
+    <cve>CVE-2020-10776</cve>
+    <cve>CVE-2020-14302</cve>
+    <cve>CVE-2020-14366</cve>
+    <cve>CVE-2020-14389</cve>
     <cve>CVE-2020-1694</cve>
     <cve>CVE-2020-1697</cve>
     <cve>CVE-2020-1698</cve>
