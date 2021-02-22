@@ -15,10 +15,36 @@
      <cpe>cpe:/a:redhat:keycloak</cpe>
   </suppress>
   <suppress>
-   <notes><![CDATA[
-   file name: keycloak-model-api-1.8.1.Final.jar
-   ]]></notes>
-   <gav regex="true">org\.keycloak:keycloak\-model\-api*</gav>
-   <vulnerabilityName regex="true"></vulnerabilityName>
-</suppress>
+    <notes><![CDATA[
+    file name: keycloak-model-api-1.8.1.Final.jar
+    ]]></notes>
+    <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
+    <cve>CVE-2016-8609</cve>
+    <cve>CVE-2016-8629</cve>
+    <cve>CVE-2017-2582</cve>
+    <cve>CVE-2017-2585</cve>
+    <cve>CVE-2018-1463</cve>
+    <cve>CVE-2019-1015</cve>
+    <cve>CVE-2019-1019</cve>
+    <cve>CVE-2019-1020</cve>
+    <cve>CVE-2019-1482</cve>
+    <cve>CVE-2019-1483</cve>
+    <cve>CVE-2019-3868</cve>
+    <cve>CVE-2019-3875</cve>
+    <cve>CVE-2020-1075</cve>
+    <cve>CVE-2020-1077</cve>
+    <cve>CVE-2020-1430</cve>
+    <cve>CVE-2020-1436</cve>
+    <cve>CVE-2020-1438</cve>
+    <cve>CVE-2020-1694</cve>
+    <cve>CVE-2020-1697</cve>
+    <cve>CVE-2020-1698</cve>
+    <cve>CVE-2020-1714</cve>
+    <cve>CVE-2020-1718</cve>
+    <cve>CVE-2020-1724</cve>
+    <cve>CVE-2020-1727</cve>
+    <cve>CVE-2020-1728</cve>
+    <cve>CVE-2020-1744</cve>
+    <cve>CVE-2020-1758</cve>
+  </suppress>
 </suppressions>
