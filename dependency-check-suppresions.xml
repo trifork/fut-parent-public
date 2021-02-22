@@ -49,4 +49,11 @@
     <cve>CVE-2020-1744</cve>
     <cve>CVE-2020-1758</cve>
   </suppress>
+  <suppress>
+   <notes><![CDATA[
+   file name: protostream-4.3.2.Final.jar, cve related to Spring Framework
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.infinispan\.protostream/protostream@.*$</packageUrl>
+   <cve>CVE-2019-10158</cve>
+</suppress>
 </suppressions>
