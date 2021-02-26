@@ -30,8 +30,8 @@
         <sonar.dependencyCheck.summarize>true</sonar.dependencyCheck.summarize>
 
         <!-- versions -->
-        <spring.version>5.2.12.RELEASE</spring.version>
-        <spring.boot.version>2.3.8.RELEASE</spring.boot.version>
+        <spring.version>5.3.4</spring.version>
+        <spring.boot.version>2.4.3</spring.boot.version>
         <wildfly.version>20.0.1.Final</wildfly.version>
     </properties>
 
