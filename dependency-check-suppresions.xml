@@ -63,4 +63,11 @@
     <packageUrl regex="true">^pkg:maven/org\.infinispan\.protostream/protostream\-processor@.*$</packageUrl>
     <cve>CVE-2019-10158</cve>
   </suppress>
+  <suppress>
+   <notes><![CDATA[
+   file name: wss4j-policy-2.3.1.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.apache\.wss4j/wss4j\-policy@.*$</packageUrl>
+   <cve>CVE-2020-13936</cve>
+</suppress>
 </suppressions>
