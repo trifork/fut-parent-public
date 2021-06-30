@@ -63,4 +63,67 @@
     <packageUrl regex="true">^pkg:maven/org\.infinispan\.protostream/protostream\-processor@.*$</packageUrl>
     <cve>CVE-2019-10158</cve>
   </suppress>
+  <suppress>
+   <notes><![CDATA[
+   file name: keycloak-core-12.0.4.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+   <cpe>cpe:/a:keycloak:keycloak</cpe>
+  </suppress>
+  <suppress>
+   <notes><![CDATA[
+   file name: keycloak-core-12.0.4.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+   <cpe>cpe:/a:redhat:keycloak</cpe>
+  </suppress>
+  <suppress>
+   <notes><![CDATA[
+   file name: keycloak-core-12.0.4.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+   <cve>CVE-2020-10770</cve>
+</suppress>
+  <suppress>
+   <notes><![CDATA[
+   file name: keycloak-core-12.0.4.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+   <cve>CVE-2020-14302</cve>
+</suppress>
+  <suppress>
+   <notes><![CDATA[
+   file name: keycloak-core-12.0.4.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+   <cve>CVE-2020-1725</cve>
+</suppress>
+  <suppress>
+   <notes><![CDATA[
+   file name: keycloak-core-12.0.4.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+   <cve>CVE-2020-27838</cve>
+</suppress>
+  <suppress>
+   <notes><![CDATA[
+   file name: keycloak-core-12.0.4.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+   <vulnerabilityName>CVE-2021-20195</vulnerabilityName>
+</suppress>
+  <suppress>
+   <notes><![CDATA[
+   file name: keycloak-core-12.0.4.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+   <cve>CVE-2021-20202</cve>
+</suppress>
+  <suppress>
+   <notes><![CDATA[
+   file name: keycloak-core-12.0.4.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+   <cve>CVE-2021-20222</cve>
+</suppress>
 </suppressions>
