@@ -17,7 +17,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <maven.javadoc.skip>true</maven.javadoc.skip>
-        <error_prone_core_version>2.5.1</error_prone_core_version>
+        <error-prone.version>2.10.0</error-prone.version>
         <argLine/> <!-- empty placeholder added to surefire and failsafe using @{argLine} late property replacement. Modified when running with jacoco plugin -->
 
         <release.branch>releases</release.branch>
@@ -286,7 +286,7 @@
                                 <path>
                                     <groupId>com.google.errorprone</groupId>
                                     <artifactId>error_prone_core</artifactId>
-                                    <version>${error_prone_core_version}</version>
+                                    <version>${error-prone.version}</version>
                                 </path>
                             </annotationProcessorPaths>
                         </configuration>
