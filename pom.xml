@@ -81,6 +81,8 @@
                     <version>0.8.7</version>
                     <configuration>
                         <includes>
+                            <include>dk/kl/gateway/*</include>
+                            <include>dk/kl/gateway/**/*</include>
                             <include>dk/sundhed/ehealth/*</include>
                             <include>dk/sundhed/ehealth/**/*</include>
                             <include>com/trifork/ehealth/*</include>
