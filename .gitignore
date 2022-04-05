@@ -4,3 +4,5 @@
 /fut
 /fut.cmd
 /build-lib
+**/target
+**/.DS_STORE
