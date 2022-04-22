@@ -81,6 +81,7 @@
     ]]></notes>
     <packageUrl regex="true">^pkg:maven/org\.springframework\.retry/spring\-retry@.*$</packageUrl>
     <cve>CVE-2016-1000027</cve>
+    <cve>CVE-2022-22965</cve>
   </suppress>
   <suppress>
     <notes><![CDATA[
