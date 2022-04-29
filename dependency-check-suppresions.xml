@@ -87,7 +87,7 @@
     <notes><![CDATA[
     file name: spring-tx-5.3.7.jar
     ]]></notes>
-    <packageUrl regex="true">^pkg:maven/org\.springframework\.retry/spring\-retry@.*$</packageUrl>
+    <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-tx@.*$</packageUrl>
     <cve>CVE-2022-22965</cve>
     <cve>CVE-2016-1000027</cve>
   </suppress>
