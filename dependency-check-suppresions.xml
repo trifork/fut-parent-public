@@ -85,6 +85,14 @@
   </suppress>
   <suppress>
     <notes><![CDATA[
+    file name: spring-tx-5.3.7.jar
+    ]]></notes>
+    <packageUrl regex="true">^pkg:maven/org\.springframework\.retry/spring\-retry@.*$</packageUrl>
+    <cve>CVE-2022-22965</cve>
+    <cve>CVE-2016-1000027</cve>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[
     file name: protostream-4.3.2.Final.jar, cve related to Spring Framework
     ]]></notes>
     <packageUrl regex="true">^pkg:maven/org\.infinispan\.protostream/protostream@.*$</packageUrl>
