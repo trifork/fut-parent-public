@@ -16,7 +16,7 @@
         <maven.compiler.release>11</maven.compiler.release>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <maven.javadoc.skip>true</maven.javadoc.skip>
-        <error-prone.version>2.10.0</error-prone.version>
+        <error-prone.version>2.13.1</error-prone.version>
         <argLine/> <!-- empty placeholder added to surefire and failsafe using @{argLine} late property replacement. Modified when running with jacoco plugin -->
 
         <release.branch>releases</release.branch>
@@ -53,7 +53,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.8.1</version>
+                    <version>3.10.1</version>
                 </plugin>
 
                 <plugin>
@@ -65,19 +65,19 @@
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>properties-maven-plugin</artifactId>
-                    <version>1.0.0</version>
+                    <version>1.1.0</version>
                 </plugin>
 
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-clean-plugin</artifactId>
-                    <version>3.1.0</version>
+                    <version>3.2.0</version>
                 </plugin>
 
                 <plugin>
                     <groupId>org.jacoco</groupId>
                     <artifactId>jacoco-maven-plugin</artifactId>
-                    <version>0.8.7</version>
+                    <version>0.8.8</version>
                     <configuration>
                         <includes>
                             <include>dk/kl/gateway/*</include>
@@ -132,10 +132,8 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-failsafe-plugin</artifactId>
-                    <version>3.0.0-M5</version>
+                    <version>3.0.0-M6</version>
                     <configuration>
-                      <!-- Quick fix for ClassNotFoundException in poc-fut-on-fhir when using AdoptOpenJDK due to https://issues.apache.org/jira/browse/SUREFIRE-1809 TODO remove when bumping to failsafe 3.0.0-M6 that should include a fix -->
-                      <useModulePath>false</useModulePath>
                       <!-- Because of spring-boot-maven-plugin's 'repackage' goal we need to tell failsafe where to find our classes-->
                         <additionalClasspathElements>
                             <additionalClasspathElement>${basedir}/target/classes</additionalClasspathElement>
@@ -155,7 +153,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.0.0-M5</version>
+                    <version>3.0.0-M6</version>
                     <configuration>
                         <argLine>@{argLine} -Dfile.encoding=${project.build.sourceEncoding}</argLine>
                         <environmentVariables>
@@ -204,7 +202,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
-                    <version>3.2.0</version>
+                    <version>3.2.2</version>
                     <configuration>
                         <archive>
                             <manifestEntries>
@@ -229,7 +227,7 @@
                 <plugin>
                     <groupId>org.owasp</groupId>
                     <artifactId>dependency-check-maven</artifactId>
-                    <version>6.5.0</version>
+                    <version>7.1.0</version>
                     <executions>
                         <execution>
                             <goals>
