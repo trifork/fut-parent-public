@@ -77,11 +77,11 @@
   </suppress>
   <suppress>
     <notes><![CDATA[
-    file name: spring-retry-1.3.2.jar
+    Can and will not be fixed by Spring: https://github.com/spring-projects/spring-framework/issues/24434#issuecomment-582313417
+    Users must make sure they do not expose "HTTP Invoker" endpoints to untrusted sources
     ]]></notes>
-    <packageUrl regex="true">^pkg:maven/org\.springframework\.retry/spring\-retry@.*$</packageUrl>
-    <cve>CVE-2016-1000027</cve>
-    <cve>CVE-2022-22965</cve>
+      <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-.*@.*$</packageUrl>
+      <cve>CVE-2016-1000027</cve>
   </suppress>
   <suppress>
     <notes><![CDATA[
