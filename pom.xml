@@ -236,6 +236,7 @@
                     <configuration>
                         <suppressionFile>http://raw.githubusercontent.com/trifork/fut-parent-public/develop/dependency-check-suppresions.xml</suppressionFile>
                         <failBuildOnCVSS>9</failBuildOnCVSS>
+                        <failOnError>false</failOnError>
                         <formats>
                             <format>JSON</format>
                             <format>HTML</format>
