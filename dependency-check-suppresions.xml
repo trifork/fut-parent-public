@@ -1,163 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
-  <suppress>
-     <notes><![CDATA[
+    <suppress>
+        <notes><![CDATA[
      file name: log4j-api-kotlin-1.1.0.jar
      ]]></notes>
-     <packageUrl regex="true">^pkg:maven/org\.apache\.logging\.log4j/log4j\-api\-kotlin@.*$</packageUrl>
-     <cpe>cpe:/a:apache:log4j</cpe>
-  </suppress>
-  <suppress>
-     <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.apache\.logging\.log4j/log4j\-api\-kotlin@.*$</packageUrl>
+        <cpe>cpe:/a:apache:log4j</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
      file name: keycloak-model-api-1.8.1.Final.jar
      ]]></notes>
-     <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
-     <cpe>cpe:/a:keycloak:keycloak</cpe>
-  </suppress>
-  <suppress>
-     <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
+        <cpe>cpe:/a:keycloak:keycloak</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
      file name: keycloak-model-api-1.8.1.Final.jar
      ]]></notes>
-     <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
-     <cpe>cpe:/a:redhat:keycloak</cpe>
-  </suppress>
-  <suppress>
-     <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
+        <cpe>cpe:/a:redhat:keycloak</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
      file name: keycloak-model-api-1.8.1.Final.jar
      ]]></notes>
-     <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
-    <cve>CVE-2020-1725</cve>
-    <cve>CVE-2020-27826</cve>
-    <cve>CVE-2020-27838</cve>
-    <cve>CVE-2021-20195</cve>
-    <cve>CVE-2021-20202</cve>
-    <cve>CVE-2021-3637</cve>
-  </suppress>
-  <suppress>
-   <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
+        <cve>CVE-2020-1725</cve>
+        <cve>CVE-2020-27826</cve>
+        <cve>CVE-2020-27838</cve>
+        <cve>CVE-2021-20195</cve>
+        <cve>CVE-2021-20202</cve>
+        <cve>CVE-2021-3637</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
    file name: keycloak-model-api-1.8.1.Final.jar
    ]]></notes>
-   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
-   <vulnerabilityName>CWE-300: Channel Accessible by Non-Endpoint ('Man-in-the-Middle')</vulnerabilityName>
-</suppress>
-  <suppress>
-    <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
+        <vulnerabilityName>CWE-300: Channel Accessible by Non-Endpoint ('Man-in-the-Middle')</vulnerabilityName>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
     file name: keycloak-model-api-1.8.1.Final.jar
     ]]></notes>
-    <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
-    <cve>CVE-2016-8609</cve>
-    <cve>CVE-2016-8629</cve>
-    <cve>CVE-2017-2582</cve>
-    <cve>CVE-2017-2585</cve>
-    <cve>CVE-2018-14637</cve>
-    <cve>CVE-2019-10157</cve>
-    <cve>CVE-2019-10199</cve>
-    <cve>CVE-2019-10201</cve>
-    <cve>CVE-2019-14820</cve>
-    <cve>CVE-2019-14832</cve>
-    <cve>CVE-2019-14837</cve>
-    <cve>CVE-2019-3868</cve>
-    <cve>CVE-2019-3875</cve>
-    <cve>CVE-2020-10758</cve>
-    <cve>CVE-2020-10770</cve>
-    <cve>CVE-2020-10776</cve>
-    <cve>CVE-2020-14302</cve>
-    <cve>CVE-2020-14366</cve>
-    <cve>CVE-2020-14389</cve>
-    <cve>CVE-2020-1694</cve>
-    <cve>CVE-2020-1697</cve>
-    <cve>CVE-2020-1698</cve>
-    <cve>CVE-2020-1714</cve>
-    <cve>CVE-2020-1718</cve>
-    <cve>CVE-2020-1724</cve>
-    <cve>CVE-2020-1727</cve>
-    <cve>CVE-2020-1728</cve>
-    <cve>CVE-2020-1744</cve>
-    <cve>CVE-2020-1758</cve>
-  </suppress>
-  <suppress>
-    <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
+        <cve>CVE-2016-8609</cve>
+        <cve>CVE-2016-8629</cve>
+        <cve>CVE-2017-2582</cve>
+        <cve>CVE-2017-2585</cve>
+        <cve>CVE-2018-14637</cve>
+        <cve>CVE-2019-10157</cve>
+        <cve>CVE-2019-10199</cve>
+        <cve>CVE-2019-10201</cve>
+        <cve>CVE-2019-14820</cve>
+        <cve>CVE-2019-14832</cve>
+        <cve>CVE-2019-14837</cve>
+        <cve>CVE-2019-3868</cve>
+        <cve>CVE-2019-3875</cve>
+        <cve>CVE-2020-10758</cve>
+        <cve>CVE-2020-10770</cve>
+        <cve>CVE-2020-10776</cve>
+        <cve>CVE-2020-14302</cve>
+        <cve>CVE-2020-14366</cve>
+        <cve>CVE-2020-14389</cve>
+        <cve>CVE-2020-1694</cve>
+        <cve>CVE-2020-1697</cve>
+        <cve>CVE-2020-1698</cve>
+        <cve>CVE-2020-1714</cve>
+        <cve>CVE-2020-1718</cve>
+        <cve>CVE-2020-1724</cve>
+        <cve>CVE-2020-1727</cve>
+        <cve>CVE-2020-1728</cve>
+        <cve>CVE-2020-1744</cve>
+        <cve>CVE-2020-1758</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
     Can and will not be fixed by Spring: https://github.com/spring-projects/spring-framework/issues/24434#issuecomment-582313417
     Users must make sure they do not expose "HTTP Invoker" endpoints to untrusted sources
     ]]></notes>
-      <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-.*@.*$</packageUrl>
-      <cve>CVE-2016-1000027</cve>
-  </suppress>
-  <suppress>
-    <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-.*@.*$</packageUrl>
+        <cve>CVE-2016-1000027</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
     file name: protostream-4.3.2.Final.jar, cve related to Spring Framework
     ]]></notes>
-    <packageUrl regex="true">^pkg:maven/org\.infinispan\.protostream/protostream@.*$</packageUrl>
-    <cve>CVE-2019-10158</cve>
-  </suppress>
-  <suppress>
-    <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.infinispan\.protostream/protostream@.*$</packageUrl>
+        <cve>CVE-2019-10158</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
     file name: protostream-processor-4.3.*.Final.jar
     ]]></notes>
-    <packageUrl regex="true">^pkg:maven/org\.infinispan\.protostream/protostream\-processor@.*$</packageUrl>
-    <cve>CVE-2019-10158</cve>
-  </suppress>
-  <suppress>
-   <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.infinispan\.protostream/protostream\-processor@.*$</packageUrl>
+        <cve>CVE-2019-10158</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
    file name: keycloak-core-12.0.4.jar
    ]]></notes>
-   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
-   <cpe>cpe:/a:keycloak:keycloak</cpe>
-  </suppress>
-  <suppress>
-   <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+        <cpe>cpe:/a:keycloak:keycloak</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
    file name: keycloak-core-12.0.4.jar
    ]]></notes>
-   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
-   <cpe>cpe:/a:redhat:keycloak</cpe>
-  </suppress>
-  <suppress>
-   <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+        <cpe>cpe:/a:redhat:keycloak</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
    file name: keycloak-core-12.0.4.jar
    ]]></notes>
-   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
-   <cve>CVE-2020-10770</cve>
-</suppress>
-  <suppress>
-   <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+        <cve>CVE-2020-10770</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
    file name: keycloak-core-12.0.4.jar
    ]]></notes>
-   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
-   <cve>CVE-2020-14302</cve>
-</suppress>
-  <suppress>
-   <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+        <cve>CVE-2020-14302</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
    file name: keycloak-core-12.0.4.jar
    ]]></notes>
-   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
-   <cve>CVE-2020-1725</cve>
-</suppress>
-  <suppress>
-   <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+        <cve>CVE-2020-1725</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
    file name: keycloak-core-12.0.4.jar
    ]]></notes>
-   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
-   <cve>CVE-2020-27838</cve>
-</suppress>
-  <suppress>
-   <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+        <cve>CVE-2020-27838</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
    file name: keycloak-core-12.0.4.jar
    ]]></notes>
-   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
-   <vulnerabilityName>CVE-2021-20195</vulnerabilityName>
-</suppress>
-  <suppress>
-   <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+        <vulnerabilityName>CVE-2021-20195</vulnerabilityName>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
    file name: keycloak-core-12.0.4.jar
    ]]></notes>
-   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
-   <cve>CVE-2021-20202</cve>
-</suppress>
-  <suppress>
-   <notes><![CDATA[
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+        <cve>CVE-2021-20202</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
    file name: keycloak-core-12.0.4.jar
    ]]></notes>
-   <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
-   <cve>CVE-2021-20222</cve>
-</suppress>
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
+        <cve>CVE-2021-20222</cve>
+    </suppress>
 </suppressions>
