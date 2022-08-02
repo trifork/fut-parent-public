@@ -11,8 +11,8 @@
         <notes><![CDATA[
      file name: keycloak-common-15.0.1.jar
      ]]></notes>
-        <packageUrl regex="true">^pkg:maven/keycloak\-common@.*$</packageUrl>
-        <cpe>CVE-2022-1245</cpe>
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-common@.*$</packageUrl>
+        <cve>CVE-2022-1245</cve>
     </suppress>
     <suppress>
         <notes><![CDATA[
