@@ -20,14 +20,14 @@
         <notes><![CDATA[
      file name: serializer-2.7.1.jar
      ]]></notes>
-        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
+        <packageUrl regex="true">^pkg:maven/xalan\.serializer@.*$</packageUrl>
         <cve>CVE-2022-34169</cve>
     </suppress>
     <suppress>
         <notes><![CDATA[
      file name: xalan-2.7.1.jar
      ]]></notes>
-        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
+        <packageUrl regex="true">^pkg:maven/xalan\.xalan@.*$</packageUrl>
         <cve>CVE-2022-34169</cve>
     </suppress>
 
