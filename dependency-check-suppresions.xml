@@ -14,7 +14,24 @@
         <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
         <cpe>cpe:/a:keycloak:keycloak</cpe>
     </suppress>
+
+    <!-- serializer-2.7.1.jar and xalan-2.7.1.jar because sosi seal is not yet patched -->
     <suppress>
+        <notes><![CDATA[
+     file name: serializer-2.7.1.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
+        <cve>CVE-2022-34169</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: xalan-2.7.1.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-model\-api@.*$</packageUrl>
+        <cve>CVE-2022-34169</cve>
+    </suppress>
+
+    <!-- suppress>
         <notes><![CDATA[
      file name: keycloak-model-api-1.8.1.Final.jar
      ]]></notes>
@@ -74,7 +91,7 @@
         <cve>CVE-2020-1728</cve>
         <cve>CVE-2020-1744</cve>
         <cve>CVE-2020-1758</cve>
-    </suppress>
+    </suppress -->
     <suppress>
         <notes><![CDATA[
     Can and will not be fixed by Spring: https://github.com/spring-projects/spring-framework/issues/24434#issuecomment-582313417
@@ -97,7 +114,7 @@
         <packageUrl regex="true">^pkg:maven/org\.infinispan\.protostream/protostream\-processor@.*$</packageUrl>
         <cve>CVE-2019-10158</cve>
     </suppress>
-    <suppress>
+    <!-- suppress>
         <notes><![CDATA[
    file name: keycloak-core-12.0.4.jar
    ]]></notes>
@@ -159,7 +176,7 @@
    ]]></notes>
         <packageUrl regex="true">^pkg:maven/org\.keycloak/keycloak\-core@.*$</packageUrl>
         <cve>CVE-2021-20222</cve>
-    </suppress>
+    </suppress -->
     <suppress>
         <notes><![CDATA[
    file name: jakarta.transaction-api-1.3.3.jar
