@@ -41,6 +41,15 @@
         <cve>CVE-2022-34169</cve>
     </suppress>
 
+    <!-- No patch available yet for junit-platform-commons-1.9.1.jar: CVE-2022-31514(9.3) -->
+    <suppress>
+        <notes><![CDATA[
+     file name: junit-platform-commons-1.9.1.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.junit\.platform@.*$</packageUrl>
+        <cve>CVE-2022-31514</cve>
+    </suppress>
+
     <!-- suppress>
         <notes><![CDATA[
      file name: keycloak-model-api-1.8.1.Final.jar
