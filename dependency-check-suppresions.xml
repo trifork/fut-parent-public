@@ -50,6 +50,15 @@
         <cve>CVE-2022-31514</cve>
     </suppress>
 
+    <!-- No patch available yet for snakeyaml-1.33.jar: CVE-2022-1471(9.8) -->
+    <suppress>
+        <notes><![CDATA[
+     file name: snakeyaml-1.33.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.yaml\/snakeyaml@1\.33$</packageUrl>
+        <cve>CVE-2022-1471</cve>
+    </suppress>
+
     <!-- suppress>
         <notes><![CDATA[
      file name: keycloak-model-api-1.8.1.Final.jar
