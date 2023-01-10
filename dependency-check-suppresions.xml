@@ -59,6 +59,15 @@
         <cve>CVE-2022-1471</cve>
     </suppress>
 
+    <!-- No patch available yet for json-patch-1.15.jar: CVE-2021-4279(9.8) -->
+    <suppress>
+        <notes><![CDATA[
+     file name: json-patch-1.15.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.dogote\/json-patch@1\.15$</packageUrl>
+        <cve>CVE-2021-4279</cve>
+    </suppress>
+
     <!-- suppress>
         <notes><![CDATA[
      file name: keycloak-model-api-1.8.1.Final.jar
