@@ -230,4 +230,12 @@
         <packageUrl regex="true">^pkg:maven/jakarta\.transaction/jakarta\.transaction\-api@.*$</packageUrl>
         <cve>CVE-2022-31569</cve>
     </suppress>
+
+    <suppress>
+        <notes><![CDATA[
+   file name: org.hl7.fhir.*.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/ca\.uhn\.hapi\.fhir/org\.hl7\.fhir\.(r5|r4b|r4|dstu3|dstu2|utilities|convertors|validation)@5\.6\.68$</packageUrl>
+        <cve>CVE-2023-24057</cve>
+    </suppress>
 </suppressions>
