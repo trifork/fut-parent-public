@@ -59,7 +59,25 @@
         <cve>CVE-2022-1471</cve>
     </suppress>
 
-    <!-- No patch available yet for htmlunit-2.49.1.jar: CVE-2023-26119(9.8) -->
+    <!-- No patch available yet for htmlunit-core-js-2.60.0.jar: CVE-2023-26119(9.8) -->
+    <suppress>
+        <notes><![CDATA[
+     file name: htmlunit-core-js-2.60.0.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/net\.sourceforge\.htmlunit/htmlunit-core-js@2\.60\.0$</packageUrl>
+        <cve>CVE-2023-26119</cve>
+    </suppress>
+
+    <!-- No patch available yet for htmlunit-cssparser-1.14.0.jar: CVE-2023-26119(9.8) -->
+    <suppress>
+        <notes><![CDATA[
+     file name: htmlunit-cssparser-1.14.0.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/net\.sourceforge\.htmlunit/htmlunit-cssparser@1\.7\.0$</packageUrl>
+        <cve>CVE-2023-26119</cve>
+    </suppress>
+
+    <!-- No patch available yet for htmlunit-core-js-2.60.0.jar: CVE-2023-26119(9.8) -->
     <suppress>
         <notes><![CDATA[
      file name: htmlunit-2.49.1.jar
