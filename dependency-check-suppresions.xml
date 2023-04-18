@@ -64,7 +64,7 @@
         <notes><![CDATA[
      file name: htmlunit-core-js-2.60.0.jar
      ]]></notes>
-        <packageUrl regex="true">^pkg:maven/net\.sourceforge\.htmlunit/htmlunit-core-js@2\.*$</packageUrl>
+        <packageUrl regex="true">^pkg:maven/net\.sourceforge\.htmlunit/htmlunit-core-js@2\.49\.0$</packageUrl>
         <cve>CVE-2023-26119</cve>
     </suppress>
 
@@ -73,7 +73,7 @@
         <notes><![CDATA[
      file name: neko-htmlunit-2.49.0.jar
      ]]></notes>
-        <packageUrl regex="true">^pkg:maven/net\.sourceforge\.htmlunit/neko-htmlunit@2\.*$</packageUrl>
+        <packageUrl regex="true">^pkg:maven/net\.sourceforge\.htmlunit/neko-htmlunit@2\.49\.0$</packageUrl>
         <cve>CVE-2023-26119</cve>
     </suppress>
 
