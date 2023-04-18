@@ -68,6 +68,15 @@
         <cve>CVE-2023-26119</cve>
     </suppress>
 
+    <!-- No patch available yet for neko-htmlunit-2.49.0.jar: CVE-2023-26119(9.8) -->
+    <suppress>
+        <notes><![CDATA[
+     file name: neko-htmlunit-2.49.0.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/net\.sourceforge\.htmlunit/neko-htmlunit@2\.*$</packageUrl>
+        <cve>CVE-2023-26119</cve>
+    </suppress>
+
     <!-- No patch available yet for htmlunit-cssparser-1.14.0.jar: CVE-2023-26119(9.8) -->
     <suppress>
         <notes><![CDATA[
