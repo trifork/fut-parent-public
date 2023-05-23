@@ -103,6 +103,27 @@
     </suppress>
     <suppress>
         <notes><![CDATA[
+     file name: spring-boot-test-autoconfigure-2.7.7.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-test-autoconfigure@2\.7\.7$</packageUrl>
+        <cve>CVE-2023-20873</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-boot-configuration-processor-2.7.7.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-configuration-processor@2\.7\.7$</packageUrl>
+        <cve>CVE-2023-20873</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-boot-actuator-autoconfigure-2.7.7.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-actuator-autoconfigure@2\.7\.7$</packageUrl>
+        <cve>CVE-2023-20873</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
      file name: spring-boot-starter-2.7.7.jar
      ]]></notes>
         <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-starter@2\.7\.7$</packageUrl>
@@ -124,9 +145,30 @@
     </suppress>
     <suppress>
         <notes><![CDATA[
+     file name: spring-boot-starter-actuator-2.7.7.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-starter-actuator@2\.7\.7$</packageUrl>
+        <cve>CVE-2023-20873</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-boot-starter-tomcat-2.7.7.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-starter-tomcat@2\.7\.7$</packageUrl>
+        <cve>CVE-2023-20873</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
      file name: spring-boot-test-2.7.7.jar
      ]]></notes>
         <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-test@2\.7\.7$</packageUrl>
+        <cve>CVE-2023-20873</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-boot-starter-test-2.7.7.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-starter-test@2\.7\.7$</packageUrl>
         <cve>CVE-2023-20873</cve>
     </suppress>
     <suppress>
