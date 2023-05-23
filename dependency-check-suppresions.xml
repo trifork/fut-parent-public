@@ -86,6 +86,36 @@
         <cve>CVE-2023-26119</cve>
     </suppress>
 
+    <!-- CVE-2023-20873 is only relevant for Cloud Foundry deployments -->
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-boot-starter-web-2.7.7.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-starter-web@2\.7\.7$</packageUrl>
+        <cve>CVE-2023-20873</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-boot-autoconfigure-2.7.7.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-autoconfigure@2\.7\.7$</packageUrl>
+        <cve>CVE-2023-20873</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-boot-2.7.0.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot@2\.7\.0$</packageUrl>
+        <cve>CVE-2023-20873</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-boot-2.7.7.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot@2\.7\.7$</packageUrl>
+        <cve>CVE-2023-20873</cve>
+    </suppress>
+
     <!-- No patch available yet for htmlunit-core-js-2.60.0.jar: CVE-2023-26119(9.8) -->
     <suppress>
         <notes><![CDATA[
