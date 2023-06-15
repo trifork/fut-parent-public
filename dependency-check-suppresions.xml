@@ -214,6 +214,63 @@
         <cve>CVE-2023-20873</cve>
     </suppress>
 
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-boot-actuator-autoconfigure-2.5.0.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-actuator-autoconfigure@2\.5\.0$</packageUrl>
+        <cve>CVE-2023-20873</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-security-core-5.8.2.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring-security-core@5\.8\.2$</packageUrl>
+        <cve>CVE-2023-20862</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-security-crypto-5.8.2.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring-security-crypto@5\.8\.2$</packageUrl>
+        <cve>CVE-2023-20862</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-security-oauth2-resource-server-5.8.2.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring-security-oauth2-resource-server@5\.8\.2$</packageUrl>
+        <cve>CVE-2023-20862</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-security-web-5.8.2.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring-security-web@5\.8\.2$</packageUrl>
+        <cve>CVE-2023-20862</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-security-config-5.8.2.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring-security-config@5\.8\.2$</packageUrl>
+        <cve>CVE-2023-20862</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-security-oauth2-core-5.8.2
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring-security-oauth2-core@5\.8\.2$</packageUrl>
+        <cve>CVE-2023-20862</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+     file name: spring-security-oauth2-jose-5.8.2.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring-security-oauth2-jose@5\.8\.2$</packageUrl>
+        <cve>CVE-2023-20862</cve>
+    </suppress>
+
     <!-- No patch available yet for htmlunit-core-js-2.60.0.jar: CVE-2023-26119(9.8) -->
     <suppress>
         <notes><![CDATA[
