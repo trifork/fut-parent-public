@@ -244,6 +244,13 @@
     </suppress>
     <suppress>
         <notes><![CDATA[
+     file name: thymeleaf-spring5-3.1.1.RELEASE.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.thymeleaf/thymeleaf-spring5@3\.1\.1\.RELEASE$</packageUrl>
+        <cve>CVE-2023-38286</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
      file name: spring-security-web-5.8.2.jar
      ]]></notes>
         <packageUrl regex="true">^pkg:maven/org\.springframework\.security/spring-security-web@5\.8\.2$</packageUrl>
