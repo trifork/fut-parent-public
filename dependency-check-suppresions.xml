@@ -86,6 +86,15 @@
         <cve>CVE-2023-26119</cve>
     </suppress>
 
+    <!-- No patch available yet for quartz-2.3.2.jar: CVE-2023-39017(9.8) -->
+    <suppress>
+        <notes><![CDATA[
+     file name: quartz-2.3.2.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.quartz\-scheduler/quartz@2\.3\.2$</packageUrl>
+        <cve>CVE-2023-39017</cve>
+    </suppress>
+
     <!-- CVE-2023-20873 is only relevant for Cloud Foundry deployments -->
     <suppress>
         <notes><![CDATA[
