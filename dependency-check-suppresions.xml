@@ -112,6 +112,13 @@
     </suppress>
     <suppress>
         <notes><![CDATA[
+     file name: spring-boot-actuator-autoconfigure-2.5.15.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-actuator-autoconfigure@2\.5\.15$</packageUrl>
+        <cve>CVE-2023-20873</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
      file name: spring-boot-test-autoconfigure-2.7.7.jar
      ]]></notes>
         <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-test-autoconfigure@2\.7\.7$</packageUrl>
