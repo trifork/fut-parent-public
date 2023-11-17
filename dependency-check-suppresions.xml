@@ -41,12 +41,26 @@
         <cve>CVE-2022-34169</cve>
     </suppress>
 
-    <!-- No patch available yet for junit-platform-commons-1.9.1.jar: CVE-2022-31514(9.3) -->
+    <!-- No patch available yet for CVE-2022-31514(9.3) in JUnit -->
     <suppress>
         <notes><![CDATA[
      file name: junit-platform-commons-1.9.1.jar
      ]]></notes>
         <packageUrl regex="true">^pkg:maven/org\.junit\.platform/junit\-platform\-commons@.*$</packageUrl>
+        <cve>CVE-2022-31514</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+            file name: junit-jupiter-engine-5.8.2.jar
+        ]]></notes>
+        <gav regex="true">^org\.junit\.jupiter:junit-jupiter-engine:5\.8\.2$</gav>
+        <cve>CVE-2022-31514</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+            file name: junit-platform-engine-1.8.2.jar
+        ]]></notes>
+        <gav regex="true">^org\.junit\.platform:junit-platform-engine:1\.8\.2$</gav>
         <cve>CVE-2022-31514</cve>
     </suppress>
 
