@@ -480,5 +480,19 @@
         <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-arc@.*$</packageUrl>
         <cve>CVE-2023-6394</cve>
     </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: arc-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus\.arc/arc@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: quarkus-jsonp-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-jsonp@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
     <!--    END KEYCLOAK QUARKUS FIXES-->
 </suppressions>
