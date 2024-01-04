@@ -508,5 +508,19 @@
         <packageUrl regex="true">^pkg:maven/io\.quarkus\.resteasy\.reactive/resteasy\-reactive\-common@.*$</packageUrl>
         <cve>CVE-2023-6394</cve>
     </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: quarkus-vertx-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-vertx@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: resteasy-reactive-common-types-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus\.resteasy\.reactive/resteasy\-reactive\-common\-types@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
     <!--    END KEYCLOAK QUARKUS FIXES-->
 </suppressions>
