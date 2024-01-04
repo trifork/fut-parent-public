@@ -543,5 +543,12 @@
         <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-credentials@.*$</packageUrl>
         <cve>CVE-2023-6394</cve>
     </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: quarkus-ide-launcher-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-ide\-launcher@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
     <!--    END KEYCLOAK QUARKUS FIXES-->
 </suppressions>
