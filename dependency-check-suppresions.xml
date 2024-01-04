@@ -550,5 +550,61 @@
         <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-ide\-launcher@.*$</packageUrl>
         <cve>CVE-2023-6394</cve>
     </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: quarkus-bootstrap-runner-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-bootstrap\-runner@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: quarkus-resteasy-reactive-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-resteasy\-reactive@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: quarkus-development-mode-spi-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-development\-mode\-spi@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: quarkus-security-runtime-spi-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-security\-runtime\-spi@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: quarkus-resteasy-reactive-common-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-resteasy\-reactive\-common@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: quarkus-smallrye-context-propagation-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-smallrye\-context\-propagation@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: quarkus-vertx-latebound-mdc-provider-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-vertx\-latebound\-mdc\-provider@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: quarkus-vertx-http-dev-console-runtime-spi-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-vertx\-http\-dev\-console\-runtime\-spi@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
     <!--    END KEYCLOAK QUARKUS FIXES-->
 </suppressions>
