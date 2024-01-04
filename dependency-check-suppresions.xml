@@ -522,5 +522,12 @@
         <packageUrl regex="true">^pkg:maven/io\.quarkus\.resteasy\.reactive/resteasy\-reactive\-common\-types@.*$</packageUrl>
         <cve>CVE-2023-6394</cve>
     </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: quarkus-mutiny-3.2.9.Final.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/io\.quarkus/quarkus\-mutiny@.*$</packageUrl>
+        <cve>CVE-2023-6394</cve>
+    </suppress>
     <!--    END KEYCLOAK QUARKUS FIXES-->
 </suppressions>
