@@ -64,6 +64,15 @@
         <cve>CVE-2022-31514</cve>
     </suppress>
 
+    <!-- Common-logging hotfix required - allow activemq client CVE -->
+    <suppress>
+        <notes><![CDATA[
+     file name: activemq-client-5.16.6.jar
+     ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.apache\.activemq/activemq-client@5\.16\.6$</packageUrl>
+        <cve>CVE-2023-46604</cve>
+    </suppress>
+
     <!-- No patch available yet for snakeyaml-1.33.jar: CVE-2022-1471(9.8) -->
     <suppress>
         <notes><![CDATA[
